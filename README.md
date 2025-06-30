@@ -28,4 +28,4 @@ python run_GEMI_AOD.py --proj GBM-DX --plr 1e-3 --elr 1e-3 --num_epochs 50 --smo
 
 ### Postprocessed whole-slide-image datasets
 
-Please download from
+Please download from https://pan.baidu.com/s/1e-pwRb4cFqAKQL03P4FNZg?pwd=rnyw [password: rnyw] 
