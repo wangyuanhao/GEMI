@@ -1,0 +1,6 @@
+{
+  "proj": "GBM-DX",
+  "plr": 0.005,
+  "elr": 0.005,
+  "num_epochs": 50,
+  "device": 

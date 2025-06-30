@@ -1,0 +1,16 @@
+[2025-06-30 15:44:09,252][INFO] Running PROJECT: GBM-DX, P LEARNING RATE: 0.005, E LEARNING RATE: 0.005, OPTIMIZER: ADAMW, NUM EPOCHS: 50, BATCH SIZE: 2048, DEVICES: cuda, SMOOTHING: 0.01
+[2025-06-30 15:44:09,252][INFO] params["in_chans"]=[200, 8]
+[2025-06-30 15:44:09,253][INFO] params["dims"]=[512, 200]
+[2025-06-30 15:44:09,253][INFO] params["out_chans"]=[16, 8]
+[2025-06-30 15:44:09,253][INFO] params["heads"]=[8, 4]
+[2025-06-30 15:44:09,253][INFO] params["dropout"]=[0.8, 0.4, 0.4]
+[2025-06-30 15:44:09,253][INFO] params["inputs"]=[2000, 512, 128, 32, 128, 1024]
+[2025-06-30 15:44:09,253][INFO] params["outputs"]=[512, 128, 32, 128, 1024, 2000]
+[2025-06-30 15:45:26,321][INFO] Epoch[1/50], loss:37.5346, CE loss:0.6953, SIM loss:0.1111, REC loss: 35.6466, PCON loss: 0.0000, ECON loss: 1.0816
+[2025-06-30 15:45:26,321][INFO] Epoch[1/50], train B-acc: 0.5000(0.5000-0.5000), test B-acc: 0.5000(0.5000-0.5000)
+[2025-06-30 15:45:26,322][INFO] Epoch[1/50], train weighted-f1: 0.3032(0.2224-0.4102), test weighted-f1: 0.3233(0.1774-0.4723)
+[2025-06-30 15:45:26,322][INFO] Epoch[1/50], train AUC: 0.6889(0.5966-0.7789), test AUC: 0.6293(0.4824-0.7807)
+[2025-06-30 15:46:39,658][INFO] Epoch[2/50], loss:22.1001, CE loss:0.6829, SIM loss:0.1064, REC loss: 20.3748, PCON loss: 0.0000, ECON loss: 0.9361
+[2025-06-30 15:46:39,658][INFO] Epoch[2/50], train B-acc: 0.5000(0.5000-0.5000), test B-acc: 0.5000(0.5000-0.5000)
+[2025-06-30 15:46:39,658][INFO] Epoch[2/50], train weighted-f1: 0.3554(0.2537-0.4577), test weighted-f1: 0.3435(0.1939-0.4949)
+[2025-06-30 15:46:39,658][INFO] Epoch[2/50], train AUC: 0.6313(0.5256-0.7217), test AUC: 0.6147(0.4552-0.7796)
