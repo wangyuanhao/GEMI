@@ -88,3 +88,7 @@ and
 ```
 
 The non-informative regions are filtered by the Otsu’s method and stored in the `filter` directory. The location of a patch in a slide is indicated by the suffix of its filename (x, y), and slides can be reconstructed from patches using the `reconstructWSI.m`.
+
+## Citation
+
+Wang W, Zhang X, Xiong Y. Transcriptomic-guided whole-slide image classification for molecular subtype identification. *PLOS Computational Biology*. 2026, 22(2): e1013950.
